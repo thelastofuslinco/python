@@ -1,0 +1,10 @@
+variable = input('Digite um valor: ')
+
+print('Valor digitado:',variable)
+print('Tipo do valor:',type(variable))
+print('Tem espaço:', variable.isspace())
+print('É alphanumerico:', variable.isalnum())
+print('É alfabetico:', variable.isalpha())
+print('Está maiuscula:', variable.isupper())
+print('Está minuscula:', variable.islower())
+print('Está capitalizado:', variable.istitle())
